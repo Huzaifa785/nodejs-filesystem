@@ -11,7 +11,10 @@ const app = express();
 const PORT = process.env.PORT || 5000;
 
 app.get("/", (req, res) => {
-  res.send("To create a file, append /create in the url 👆");
+  res.json({
+    "create-file": "https://node-fs.herokuapp.com/create"
+    "get-files": "https://node-fs.herokuapp.com/get-files"
+  });
 });
 
 // Endpoint to create a new file ./files directory
