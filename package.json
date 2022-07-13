@@ -4,7 +4,7 @@
   "description": "A basic project that creates a file in a particular folder on hitting the create endopint and retrieves all the files from that particular folder.",
   "main": "index.js",
   "scripts": {
-    "start": "node start",
+    "start": "node index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [
@@ -16,5 +16,8 @@
   "dependencies": {
     "dotenv": "^16.0.1",
     "express": "^4.18.1"
+  },
+  "engines": {
+    "node": "16.3.2"
   }
 }
