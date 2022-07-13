@@ -12,7 +12,7 @@ const PORT = process.env.PORT || 5000;
 
 app.get("/", (req, res) => {
   res.json({
-    "create-file": "https://node-fs.herokuapp.com/create"
+    "create-file": "https://node-fs.herokuapp.com/create",
     "get-files": "https://node-fs.herokuapp.com/get-files"
   });
 });
